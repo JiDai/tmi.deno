@@ -18,6 +18,5 @@ Insert your error log here
 
 **Server configuration**
 - Operating system:
-- Node version (if applicable):
-- NPM version (if applicable):
-- tmi.js version:
+- Deno version (if applicable):
+- tmi.deno version:

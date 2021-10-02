@@ -1,12 +1,16 @@
 // Initialize the queue with a specific delay..
 class Queue {
-	constructor(defaultDelay) {
+	queue: Array<{fn: Function, delay?: number}>
+	index: number
+	defaultDelay: number
+
+	constructor(defaultDelay: number) {
 		this.queue = [];
 		this.index = 0;
 		this.defaultDelay = defaultDelay === undefined ? 3000 : defaultDelay;
 	}
 	// Add a new function to the queue..
-	add(fn, delay) {
+	add(fn: Function, delay?: number) {
 		this.queue.push({ fn, delay });
 	}
 	// Go to the next in queue..
@@ -25,4 +29,4 @@ class Queue {
 	}
 }
 
-module.exports = Queue;
+export default Queue;

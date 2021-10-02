@@ -1,4 +1,4 @@
-# Contributing to tmi.js
+# Contributing to tmi.deno
 
 If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request.
 
@@ -10,14 +10,7 @@ We now have very precise rules with the way commit messages are formatted. Havin
 
 ### Commit message format
 
-Each and every commit message must include a **scope** and a **subject** and your commit **must be lowercase**:
-* ``<scope>: subject``
-
-The scope name is the filename without extension, and the subject is what you have changed / fixed in the code.
-A few examples:
-
-* ``client: your commit message here.``
-* ``utils: your commit message here.``
+Each and every commit message must respect the [conventional commit guidilines](https://www.conventionalcommits.org/en/v1.0.0/#summary).
 
 ## License
 

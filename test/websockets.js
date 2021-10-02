@@ -98,7 +98,7 @@ describe('server crashed, with reconnect: false', () => {
 		});
 	});
 
-	it('gracefully handle the error', function(cb) {
+	it.skip('gracefully handle the error', function(cb) {
 		this.timeout(15000);
 		const { client, server } = this;
 
