@@ -173,6 +173,7 @@ export function msg(data: string) {
 		}
 
 		message.tags = {
+			...tagPairs,
 			...badges(tagPairs),
 			...badgeInfo(tagPairs),
 			...emotes(tagPairs),

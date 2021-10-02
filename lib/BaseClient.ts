@@ -1,4 +1,5 @@
-import EventEmitter from './events.ts';
+import { EventEmitter } from 'https://deno.land/std@0.92.0/node/events.ts';
+
 import * as logger from './logger.ts';
 import * as parse from './parser.ts';
 import Queue from './timer.ts';

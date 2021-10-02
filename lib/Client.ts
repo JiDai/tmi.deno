@@ -11,7 +11,7 @@ class Client extends BaseClient {
 	slowmode: typeof Client.prototype.slow;
 	slowmodeoff: typeof Client.prototype.slowoff;
 
-	constructor(clientConfiguration: BaseClientConfiguration) {
+	constructor(clientConfiguration: BaseClientConfiguration = {}) {
 		super(clientConfiguration);
 
 		// Aliases

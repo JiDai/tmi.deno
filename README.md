@@ -1,6 +1,6 @@
 # tmi.deno
 
-This is a very work in progress port of tmi.js for Deno. It is working but not well tested. 
+This is a very work in progress port of [tmi.js](https://github.com/tmijs/tmi.js) for Deno. It is working but not well tested. 
 
 ## Usage
 
