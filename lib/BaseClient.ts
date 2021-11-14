@@ -344,7 +344,6 @@ class BaseClient extends EventEmitter implements ClientImplementation {
 						: this.channels;
 					this.channels = [];
 
-					console.log('this.config.channels : ', this.config.channels);
 					for (let i = 0; i < joinChannels.length; i++) {
 						const channel = joinChannels[i];
 						joinQueue.add(() => {

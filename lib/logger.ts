@@ -16,7 +16,7 @@ export function log(level: LogLevel) {
 	// Return a console message depending on the logging level..
 	return function (message: string) {
 		if (level >= currentLevel) {
-			console.log(`[${utils.formatDate(new Date())}] ${level}: ${message}`);
+			console.log(`${LogLevel[level]}: ${message}`);
 		}
 	};
 }
